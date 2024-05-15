@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{09DEABAF-40D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contatos.Domain", "src\Contatos.Domain\Contatos.Domain.csproj", "{95F8D628-6127-4885-9EC0-2A3037A51550}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contatos.Application", "src\Contatos.Application\Contatos.Application.csproj", "{34BF00EE-9DB4-403B-A3D9-A950867A422E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contatos.Infra", "src\Contatos.Infra\Contatos.Infra.csproj", "{3C166E22-66CB-4C5D-A077-8AFA31F72CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contatos.Web", "src\Contatos.Web\Contatos.Web.csproj", "{BB7A50FD-06B6-4FC0-8680-D621EA2815E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +26,23 @@ Global
 		{95F8D628-6127-4885-9EC0-2A3037A51550}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95F8D628-6127-4885-9EC0-2A3037A51550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95F8D628-6127-4885-9EC0-2A3037A51550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BF00EE-9DB4-403B-A3D9-A950867A422E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BF00EE-9DB4-403B-A3D9-A950867A422E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BF00EE-9DB4-403B-A3D9-A950867A422E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BF00EE-9DB4-403B-A3D9-A950867A422E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C166E22-66CB-4C5D-A077-8AFA31F72CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C166E22-66CB-4C5D-A077-8AFA31F72CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C166E22-66CB-4C5D-A077-8AFA31F72CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C166E22-66CB-4C5D-A077-8AFA31F72CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB7A50FD-06B6-4FC0-8680-D621EA2815E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB7A50FD-06B6-4FC0-8680-D621EA2815E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB7A50FD-06B6-4FC0-8680-D621EA2815E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB7A50FD-06B6-4FC0-8680-D621EA2815E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{95F8D628-6127-4885-9EC0-2A3037A51550} = {09DEABAF-40D7-4AC9-99CF-ED913D8472DA}
+		{34BF00EE-9DB4-403B-A3D9-A950867A422E} = {09DEABAF-40D7-4AC9-99CF-ED913D8472DA}
+		{3C166E22-66CB-4C5D-A077-8AFA31F72CAF} = {09DEABAF-40D7-4AC9-99CF-ED913D8472DA}
+		{BB7A50FD-06B6-4FC0-8680-D621EA2815E6} = {09DEABAF-40D7-4AC9-99CF-ED913D8472DA}
 	EndGlobalSection
 EndGlobal
