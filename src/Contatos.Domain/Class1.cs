@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Contatos.Domain
+﻿namespace Contatos.Domain
 {
     public class Class1
     {

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Contatos.Application
+﻿namespace Contatos.Application
 {
     public class Class1
     {

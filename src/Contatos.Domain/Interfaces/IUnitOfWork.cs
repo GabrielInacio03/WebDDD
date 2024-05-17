@@ -1,4 +1,3 @@
-using System;
 using System.Threading.Tasks;
 
 namespace Contatos.Domain.Interfaces

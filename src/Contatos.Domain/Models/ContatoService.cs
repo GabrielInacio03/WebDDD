@@ -1,4 +1,3 @@
-using System;
 using Contatos.Domain.Interfaces;
 
 namespace Contatos.Domain.Models
@@ -14,11 +13,12 @@ namespace Contatos.Domain.Models
         {
             var contato = _contatoRepository.GetById(id);
 
-            if(contato == null)
+            if (contato == null)
             {
                 contato = new Contato(nome, email);
                 _contatoRepository.Save(contato);
-            }else
+            }
+            else
             {
                 contato.Update(nome, email);
             }

@@ -1,12 +1,12 @@
-using System.Threading.Tasks;
 using Contatos.Domain.Interfaces;
 using Contatos.Infra.Context;
+using System.Threading.Tasks;
 namespace Contatos.Infra.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {
         private readonly AppDbContext _context;
- 
+
         public UnitOfWork(AppDbContext context)
         {
             _context = context;

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Contatos.Infra
+﻿namespace Contatos.Infra
 {
     public class Class1
     {

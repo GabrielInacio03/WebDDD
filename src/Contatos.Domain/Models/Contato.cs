@@ -20,9 +20,9 @@ namespace Contatos.Domain.Models
         }
         private void ValidarCategoria(string nome, string email)
         {
-            if(string.IsNullOrEmpty(nome))
+            if (string.IsNullOrEmpty(nome))
                 throw new InvalidOperationException("o nome é inválido");
-            if(string.IsNullOrEmpty(email));
+            if (string.IsNullOrEmpty(email)) ;
         }
     }
 }
